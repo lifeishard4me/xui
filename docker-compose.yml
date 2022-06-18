@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  x-ui:
+    build: .
+    container_name: : xui
+    ports:
+      - "54321:54321"
